@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lan="en">
+   <head>
+       <meta charset="UTF-8">
+       <title> user login page</title>
+      <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+       <style>
+                                   body
+                        {
+                            margin:0px;
+                            padding:0px;
+                        }
+                        .bgimg
+                        {
+                            width:100%;
+                            height:100vh;
+                            background-image:linear-gradient(27deg, #004e95 50%, #071e33 50%);
+                        }
+                        .centerdiv
+                        {
+                            width:350px;
+                            height:400px;
+                            position: absolute;
+                            top: 50%;
+                            left: 50%;
+                            transform: translate(-50%, -50%);
+                            background-image:linear-gradient(27deg,  #071e33 50%, #004e95 50%);
+                            box-shadow: 0 1px 6px #004e95 ,0 1px 6px #004e95 ;
+                        }
+                        #profilepic
+                        {
+                            width:120px;
+                            height:120px;
+                            border-radius: 50%;
+                            position: relative;
+                            top:-60px;
+                            left:calc((350px - 120px)/2);
+                        }
+                        h2
+                        {
+
+                            display:block;
+                            text-align:center;
+                            color:white;
+                            text-transform:uppercase;
+                            font-weight: bold;
+                            font-size: 50px;
+                            word-spacing: 10px;
+
+
+                        }
+                        h4
+                        {
+                            color:white;
+                        }
+       
+       </style>
+    </head>
+    <body>
+        <div class="bgimg">
+            <div class="centerdiv">
+                <img src="login.png" id="profilepic">
+                <h2> User login</h2>
+                <form>
+                   <div>
+                       <input type="email" name="" class="inputbox" placeholder="email">
+                    
+                   </div>
+                    <br>
+                    <div>
+                        <input type="password" name="" class="inputbox" placeholder="password">
+                    
+                    </div>
+                    <br>
+                    <div>
+                        <button type="submit">LOGIN</button>
+                    </div>
+                    <br>
+                
+                </form>
+                <br>
+                <div>
+                    <h4> Forgot password?</h4>
+                
+                </div>
+            
+            </div>
+            
+         
+        
+        </div>
+   
+    
+    </body>
+</html>
